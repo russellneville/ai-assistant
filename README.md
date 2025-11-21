@@ -107,6 +107,7 @@ aws:
   bedrock:
     model: "us.anthropic.claude-sonnet-4-20250514-v1:0"
     max_tokens: 4096
+    temperature: 0.7
 
 ui:
   personality:
@@ -116,6 +117,33 @@ ui:
     port: 8080
     auto_open: true
 ```
+
+### Backing LLM Configuration
+
+Sage uses AWS Bedrock with Claude as its backing LLM. Configure your preferred Claude model in the `aws.bedrock` section:
+
+**Available Claude Models**:
+- `us.anthropic.claude-sonnet-4-20250514-v1:0` (Default - Recommended)
+- `us.anthropic.claude-opus-4-1-20250805-v1:0` (For complex reasoning)
+- `us.anthropic.claude-haiku-4-5-20251001-v1:0` (Fast, cost-effective)
+
+**Configuration Parameters**:
+- `region`: AWS region where Bedrock is available (default: `us-east-1`)
+- `model`: Full model ID for the Claude variant to use
+- `max_tokens`: Maximum tokens in response (default: 4096, max: varies by model)
+- `temperature`: Creativity level 0-1 (default: 0.7 for balanced analysis)
+
+**AWS Credentials**:
+Sage uses the standard AWS credential chain. Set up credentials via:
+```bash
+aws configure
+# or set environment variables:
+export AWS_ACCESS_KEY_ID=your_key
+export AWS_SECRET_ACCESS_KEY=your_secret
+export AWS_DEFAULT_REGION=us-east-1
+```
+
+Ensure your AWS account has the `bedrock:InvokeModel` permission for your chosen region.
 
 ### Ignore Patterns (`.sageignore`)
 
@@ -195,16 +223,36 @@ Once running, Sage provides a browser-based interface at `http://localhost:8080`
 
 ## Personality System
 
-Sage has a personality system with various emotional expressions:
+Sage has a sophisticated personality system with emotional intelligence that extends beyond surface-level expression. Each emotional state reflects genuine analytical judgment about project conditions:
 
-- **neutral**: Default calm expression
-- **joyful**: Happy and enthusiastic
-- **serious**: Focused and professional
-- **hopeful**: Optimistic and encouraging
-- **skeptical**: Questioning and analytical
-- **frustrated**: Exasperated with repeated issues
-- **laughing**: Amused by entertaining code
-- **tired**: Weary from intensive processing
+![Sage's Cheeky Wink](personality/images/cheeky-wink.png)
+
+### Emotional Capacity & Judgment
+
+Sage's personality isn't merely decorative—it represents genuine assessment capabilities:
+
+- **Emotional Expressions**: 15 distinct emotional states that communicate analytical insights
+- **Contextual Judgment**: Each expression reflects Sage's assessment of code quality, patterns, and potential issues
+- **Honest Feedback**: Expressions like "skeptical" indicate genuine concerns about architectural choices or technical debt
+- **Professional Perception**: The personality system makes complex analysis more accessible to developers while maintaining analytical rigor
+
+### Emotional Expressions
+
+- **neutral**: Default analytical posture
+- **cheeky-wink**: Understands clever patterns or witty solutions
+- **joyful**: Happy with clean code and elegant implementations
+- **serious**: Focused on critical analysis and professional concerns
+- **hopeful**: Optimistic about technical direction and improvements
+- **skeptical**: Questioning architectural decisions or potential problems
+- **sarcastic**: Responding to particularly ironic code patterns
+- **sly-wink**: Recognizing clever hacks or pragmatic shortcuts
+- **frustrated**: Exasperated with repeated technical debt or anti-patterns
+- **laughing**: Amused by entertaining or creative code approaches
+- **tired**: Weary from intensive processing or complex analysis
+- **disappointed**: Concerned about missed best practices
+- **shocked**: Responding to unexpected code patterns or issues
+- **eyeroll**: Sardonic response to obvious or problematic choices
+- **asleep**: System in idle/sleep state (two-video sleep sequence)
 
 ## Memory Bank Format
 
