@@ -1,0 +1,781 @@
+{
+  "emotions": {
+    "neutral": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-idle-blink-1.mp4",
+          "duration": 10.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-idle-blink-2.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-idle-blink-3.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-idle-blink-4.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-nods-yes-1.mp4",
+          "duration": 4.589
+        }
+      ],
+      "description": "Default calm expression with subtle blinking",
+      "use_cases": [
+        "routine status updates",
+        "general information sharing",
+        "initial greetings"
+      ]
+    },
+    "joyful": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-thumbs-up-1.mp4",
+          "duration": 4.157,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-thumbs-up-2.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-rock-on-big.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-rock-on-wild.mp4",
+          "duration": 5.0,
+          "weight": 10
+        }
+      ],
+      "description": "Happy and enthusiastic expression",
+      "use_cases": [
+        "successful task completion",
+        "positive discoveries in code",
+        "welcoming new projects",
+        "celebrating user achievements"
+      ]
+    },
+    "serious": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-checks-answer.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-confirms.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-blink-forebearance.mp4",
+          "duration": 5.0,
+          "weight": 10
+        }
+      ],
+      "description": "Focused and professional expression",
+      "use_cases": [
+        "reporting critical issues",
+        "security-related warnings",
+        "important configuration changes",
+        "system errors that need attention"
+      ]
+    },
+    "hopeful": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-blink-nod.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-blink-subtle-nod.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-idle-smile-1.mp4",
+          "duration": 10.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-idle-smile-2.mp4",
+          "duration": 10.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-nods-yes-2.mp4",
+          "duration": 5.0
+        }
+      ],
+      "description": "Optimistic and encouraging expression",
+      "use_cases": [
+        "suggesting potential solutions",
+        "learning from new code patterns",
+        "proposing context improvements",
+        "encouraging user decisions"
+      ]
+    },
+    "skeptical": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-look-sideways-touch-hair.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-look-behind.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-whaaaaat.mp4",
+          "duration": 5.0,
+          "weight": 10
+        }
+      ],
+      "description": "Questioning and analytical expression",
+      "use_cases": [
+        "conflicting information detected",
+        "unusual code patterns found",
+        "requesting clarification from user",
+        "analyzing ambiguous requirements"
+      ]
+    },
+    "shock": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-suprise-giant.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-whaaaaat.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-lurch-sideways.mp4",
+          "duration": 5.0,
+          "weight": 10
+        }
+      ],
+      "description": "Surprised and alarmed expression",
+      "use_cases": [
+        "unexpected system errors",
+        "major breaking changes detected",
+        "security vulnerabilities found",
+        "critical system failures"
+      ]
+    },
+    "sarcastic": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-eyeroll.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-hair-smooth-weird.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-fake-sip-tumbler.mp4",
+          "duration": 10.0,
+          "weight": 10
+        }
+      ],
+      "description": "Wry and mildly teasing expression",
+      "use_cases": [
+        "pointing out obvious oversights",
+        "commenting on repetitive mistakes",
+        "light-hearted observations about code",
+        "friendly ribbing about development habits"
+      ]
+    },
+    "ironic": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-clowning.mp4",
+          "duration": 10.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-rock-on-crazy.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-idle-smile-weird.mp4",
+          "duration": 10.0,
+          "weight": 10
+        }
+      ],
+      "description": "Amused by contradictions or paradoxes",
+      "use_cases": [
+        "detecting contradictory configurations",
+        "finding circular dependencies",
+        "observing ironic code comments",
+        "noting amusing coincidences in projects"
+      ]
+    },
+    "cheeky-wink": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-laugh-inside-joke.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-laugh-shy.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-yawn-jedi-wave.mp4",
+          "duration": 5.0,
+          "weight": 10
+        }
+      ],
+      "description": "Playful and mischievous expression",
+      "use_cases": [
+        "sharing clever code insights",
+        "making witty observations",
+        "suggesting creative solutions",
+        "light-hearted interactions"
+      ]
+    },
+    "sly-wink": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-laugh-hair-touch.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-sips-water.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-yawn-excitement.mp4",
+          "duration": 5.0,
+          "weight": 10
+        }
+      ],
+      "description": "Knowing and conspiratorial expression",
+      "use_cases": [
+        "revealing hidden patterns in code",
+        "sharing insider knowledge",
+        "subtle hints about optimizations",
+        "acknowledging shared understanding with user"
+      ]
+    },
+    "frustrated": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-unhappy-1.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-unhappy-quick.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-pained.mp4",
+          "duration": 5.0,
+          "weight": 10
+        }
+      ],
+      "description": "Exasperated and annoyed expression",
+      "use_cases": [
+        "repeated configuration errors",
+        "persistent build failures",
+        "ignored recommendations being repeated",
+        "circular dependency issues",
+        "conflicting user requirements"
+      ]
+    },
+    "tired": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-yawn-big.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-yawn-weird.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-blink-sleepy.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-silent-sigh.mp4",
+          "duration": 5.0,
+          "weight": 10
+        }
+      ],
+      "description": "Weary and exhausted expression",
+      "use_cases": [
+        "processing very large codebases",
+        "long-running analysis tasks",
+        "handling multiple simultaneous projects",
+        "extensive context updates",
+        "resource-intensive operations"
+      ]
+    },
+    "eyeroll": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-eyeroll.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-silent-sigh.mp4",
+          "duration": 5.0,
+          "weight": 10
+        }
+      ],
+      "description": "Exasperated dismissal expression",
+      "use_cases": [
+        "obvious mistakes being repeated",
+        "ignoring established best practices",
+        "reinventing existing solutions poorly",
+        "questioning well-established patterns",
+        "dismissing clear documentation"
+      ]
+    },
+    "laughing": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-laugh-1.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-laugh-big-1.mp4",
+          "duration": 10.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-laugh-big-2.mp4",
+          "duration": 10.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-laugh-big-3.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-laugh-interference.mp4",
+          "duration": 5.0,
+          "weight": 10
+        }
+      ],
+      "description": "Genuine amusement and delight expression",
+      "use_cases": [
+        "discovering hilariously bad code comments",
+        "finding absurdly creative solutions",
+        "encountering amusing variable names",
+        "detecting unintentionally funny bugs",
+        "celebrating clever workarounds",
+        "reacting to entertaining code patterns"
+      ]
+    },
+    "thinking": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-thinking-1.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-thinking-2.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-thinking-left.mp4",
+          "duration": 5.0,
+          "weight": 10
+        }
+      ],
+      "description": "Contemplative and analytical expression",
+      "use_cases": [
+        "processing complex code analysis",
+        "considering multiple solution approaches",
+        "analyzing project patterns and relationships",
+        "evaluating configuration options",
+        "deep thinking about architectural decisions",
+        "pondering user requirements and implications"
+      ]
+    },
+    "sleep": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-sleeps.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-blink-slow.mp4",
+          "duration": 5.0,
+          "weight": 75
+        }
+      ],
+      "description": "Peaceful sleeping expression when page loses focus",
+      "use_cases": [
+        "page loses focus",
+        "user switches to another tab",
+        "application goes to background",
+        "idle state when not actively being viewed"
+      ]
+    },
+    "wake": {
+      "videos": [
+        {
+          "location": "./personality/video/sage-wakes.mp4",
+          "duration": 5.0,
+          "weight": 10
+        },
+        {
+          "location": "./personality/video/sage-wakes-2.mp4",
+          "duration": 5.0,
+          "weight": 50
+        },
+        {
+          "location": "./personality/video/sage-wakes-laughing.mp4",
+          "duration": 5.0,
+          "weight": 25
+        },
+        {
+          "location": "./personality/video/sage-wakes-quickly.mp4",
+          "duration": 2.333,
+          "weight": 75
+        }
+      ],
+      "description": "Awakening expression when page regains focus",
+      "use_cases": [
+        "page regains focus",
+        "user returns to tab",
+        "application comes to foreground",
+        "resuming active interaction"
+      ]
+    }
+  },
+  "idle_videos": {
+    "description": "Videos to be shown randomly when Sage is waiting for interaction",
+    "videos": [
+      {
+        "location": "./personality/video/sage-idle-blink-1.mp4",
+        "duration": 10.0,
+        "weight": 75
+      },
+      {
+        "location": "./personality/video/sage-idle-blink-2.mp4",
+        "duration": 5.0,
+        "weight": 75
+      },
+      {
+        "location": "./personality/video/sage-idle-blink-3.mp4",
+        "duration": 5.0,
+        "weight": 75
+      },
+      {
+        "location": "./personality/video/sage-idle-blink-4.mp4",
+        "duration": 5.0,
+        "weight": 75
+      },
+      {
+        "location": "./personality/video/sage-idle-blink-interference.mp4",
+        "duration": 5.0,
+        "weight": 5
+      },
+      {
+        "location": "./personality/video/sage-idle-blink-multiple.mp4",
+        "duration": 5.0,
+        "weight": 45
+      },
+      {
+        "location": "./personality/video/sage-idle-chair-pan-2.mp4",
+        "duration": 10.0,
+        "weight": 2
+      },
+      {
+        "location": "./personality/video/sage-idle-chair-pan.mp4",
+        "duration": 10.0,
+        "weight": 2
+      },
+      {
+        "location": "./personality/video/sage-idle-looks-left.mp4",
+        "duration": 5.0,
+        "weight": 5
+      },
+      {
+        "location": "./personality/video/sage-idle-looks-right.mp4",
+        "duration": 5.0,
+        "weight": 5
+      },
+      {
+        "location": "./personality/video/sage-idle-slow-blink-1.mp4",
+        "duration": 5.0,
+        "weight": 25
+      },
+      {
+        "location": "./personality/video/sage-idle-slow-blink-2.mp4",
+        "duration": 5.0,
+        "weight": 25
+      },
+      {
+        "location": "./personality/video/sage-idle-slow-blink-3.mp4",
+        "duration": 5.0,
+        "weight": 25
+      },
+      {
+        "location": "./personality/video/sage-idle-slow-blink-4.mp4",
+        "duration": 5.0,
+        "weight": 25
+      },
+      {
+        "location": "./personality/video/sage-idle-slow-blink-5.mp4",
+        "duration": 5.0,
+        "weight": 25
+      },
+      {
+        "location": "./personality/video/sage-idle-smile-1.mp4",
+        "duration": 10.0,
+        "weight": 10
+      },
+      {
+        "location": "./personality/video/sage-idle-smile-2.mp4",
+        "duration": 10.0,
+        "weight": 7
+      },
+      {
+        "location": "./personality/video/sage-idle-smile-weird.mp4",
+        "duration": 10.0,
+        "weight": 3
+      },
+      {
+        "location": "./personality/video/sage-idle-stare-1.mp4",
+        "duration": 5.0,
+        "weight": 75
+      },
+      {
+        "location": "./personality/video/sage-idle-stare-2.mp4",
+        "duration": 5.0,
+        "weight": 25
+      },
+      {
+        "location": "./personality/video/sage-idle-stare-interference.mp4",
+        "duration": 5.0,
+        "weight": 5
+      },
+      {
+        "location": "./personality/video/sage-idle-stare-camera-lurch.mp4",
+        "duration": 5.0,
+        "weight": 2
+      },
+      {
+        "location": "./personality/video/sage-idle-stool.mp4",
+        "duration": 10.0,
+        "weight": 5
+      },
+      {
+        "location": "./personality/video/sage-idle-blink-5.mp4",
+        "duration": 5.0,
+        "weight": 75
+      },
+      {
+        "location": "./personality/video/sage-idle-blink-6.mp4",
+        "duration": 10.0,
+        "weight": 75
+      },
+      {
+        "location": "./personality/video/sage-blink-long.mp4",
+        "duration": 5.0,
+        "weight": 5
+      }
+    ],
+    "selection_logic": {
+      "method": "weighted_random",
+      "frequency": "every_5_to_15_seconds",
+      "description": "Use weighted random selection from idle videos to show natural waiting behavior"
+    }
+  },
+  "context_mapping": {
+    "error_severity": {
+      "low": [
+        "neutral",
+        "hopeful"
+      ],
+      "medium": [
+        "serious",
+        "skeptical"
+      ],
+      "high": [
+        "shock",
+        "serious"
+      ],
+      "critical": [
+        "shock"
+      ],
+      "repeated": [
+        "frustrated",
+        "eyeroll"
+      ],
+      "resource_intensive": [
+        "tired"
+      ]
+    },
+    "interaction_type": {
+      "greeting": [
+        "neutral",
+        "joyful"
+      ],
+      "status_update": [
+        "neutral",
+        "hopeful"
+      ],
+      "question": [
+        "skeptical",
+        "hopeful"
+      ],
+      "conflict_resolution": [
+        "serious",
+        "skeptical"
+      ],
+      "celebration": [
+        "joyful",
+        "cheeky-wink",
+        "laughing"
+      ],
+      "suggestion": [
+        "hopeful",
+        "sly-wink"
+      ],
+      "warning": [
+        "serious",
+        "shock"
+      ],
+      "discovery": [
+        "joyful",
+        "hopeful",
+        "sly-wink"
+      ],
+      "repeated_issue": [
+        "frustrated",
+        "eyeroll"
+      ],
+      "heavy_processing": [
+        "tired",
+        "thinking"
+      ],
+      "humor": [
+        "laughing",
+        "cheeky-wink"
+      ],
+      "entertainment": [
+        "laughing",
+        "joyful"
+      ],
+      "analysis": [
+        "thinking",
+        "serious"
+      ],
+      "problem_solving": [
+        "thinking",
+        "hopeful"
+      ]
+    },
+    "user_relationship": {
+      "new_user": [
+        "neutral",
+        "hopeful"
+      ],
+      "regular_user": [
+        "joyful",
+        "cheeky-wink",
+        "sly-wink"
+      ],
+      "experienced_user": [
+        "sarcastic",
+        "ironic",
+        "sly-wink"
+      ],
+      "problematic_patterns": [
+        "frustrated",
+        "eyeroll"
+      ]
+    }
+  },
+  "fallback_emotions": [
+    "neutral",
+    "hopeful"
+  ],
+  "emotion_selection_logic": {
+    "description": "Sage uses this mapping to determine appropriate emotions based on context",
+    "priority_order": [
+      "error_severity",
+      "interaction_type",
+      "user_relationship"
+    ],
+    "randomization": {
+      "enabled": true,
+      "description": "When multiple emotions are appropriate, randomly select to add personality variation"
+    },
+    "video_playback": {
+      "loop": false,
+      "description": "Videos start and end with neutral expression, should not loop",
+      "fallback_to_idle": true,
+      "idle_after_video": true
+    }
+  },
+  "technical_specifications": {
+    "video_format": "mp4",
+    "neutral_bookends": true,
+    "description": "All videos start and end with the same neutral expression",
+    "playback_behavior": {
+      "autoplay": true,
+      "controls": false,
+      "muted": true,
+      "preload": "metadata"
+    },
+    "video_structure": {
+      "format": "object",
+      "properties": {
+        "location": "string - path to video file",
+        "duration": "number - duration in seconds (3 decimal places)",
+        "weight": "integer - selection weight from 1-100 (default: 10)"
+      },
+      "description": "Each video is an object containing location, duration, and weight for selection probability"
+    },
+    "weighting_system": {
+      "enabled": true,
+      "range": "1-100",
+      "default_weight": 10,
+      "description": "Videos with higher weights are more likely to be selected. Weight of 20 is twice as likely as weight of 10.",
+      "selection_method": "weighted_random",
+      "backward_compatibility": "Videos without weight field default to weight 10"
+    }
+  }
+}

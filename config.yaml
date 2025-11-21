@@ -1,0 +1,54 @@
+projects:
+  - path: "./"
+    crew_config: "general_development"
+    priority: "high"
+
+crews:
+  general_development:
+    agents: ["project_monitor", "context_curator", "tech_specialist", "performance_monitor"]
+    specializations: ["python", "javascript", "general"]
+  
+  python_web_development:
+    agents: ["project_monitor", "context_curator", "tech_specialist"]
+    specializations: ["python", "django", "flask", "fastapi", "web"]
+  
+  javascript_frontend:
+    agents: ["project_monitor", "context_curator", "tech_specialist"]
+    specializations: ["javascript", "typescript", "react", "vue", "angular", "frontend"]
+  
+  full_stack_development:
+    agents: ["project_monitor", "context_curator", "tech_specialist", "performance_monitor"]
+    specializations: ["python", "javascript", "typescript", "web", "database", "api"]
+  
+  data_science:
+    agents: ["project_monitor", "context_curator", "tech_specialist"]
+    specializations: ["python", "jupyter", "pandas", "numpy", "scikit-learn", "tensorflow", "pytorch"]
+  
+  devops_infrastructure:
+    agents: ["project_monitor", "context_curator", "performance_monitor"]
+    specializations: ["docker", "kubernetes", "terraform", "ansible", "aws", "infrastructure"]
+
+aws:
+  region: "us-west-2"
+  profile: "poc"
+  bedrock:
+    model: "us.anthropic.claude-sonnet-4-20250514-v1:0"
+    max_tokens: 4096
+
+mcp:
+  registry_path: null
+  enabled_tools: []
+
+performance:
+  file_monitor_frequency: 5
+  background_frequency: 30
+  batch_update_interval: 120
+  max_concurrent_ops: 10
+
+ui:
+  personality:
+    expressions_map: "./personality/expressions-video.json"
+    default_emotion: "neutral"
+  browser:
+    port: 8080
+    auto_open: true

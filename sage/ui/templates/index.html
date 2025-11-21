@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Sage - AI Project Context Assistant</h1>
+            <div id="status-indicator" class="status-online">Online</div>
+        </header>
+        
+        <main>
+            <div id="chat-container">
+                <div id="messages-container">
+                    <div id="messages"></div>
+                </div>
+                
+                <div id="input-container">
+                    <input type="text" id="message-input" placeholder="Type a message to Sage...">
+                    <button id="send-button">Send</button>
+                </div>
+            </div>
+            
+            <aside id="sidebar">
+                <div id="personality-display">
+                    <div id="sage-toggle-container">
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="sage-toggle" checked>
+                            <span class="toggle-slider"></span>
+                        </label>
+                        <span id="toggle-label">Hide Sage</span>
+                    </div>
+                    <video id="sage-face" autoplay muted loop>
+                        <source src="/personality/video/sage-idle-blink-1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div id="offline-message" class="offline-message hidden">
+                        Sage server process is offline
+                    </div>
+                </div>
+                
+                <div id="project-status">
+                    <h3>Project Status</h3>
+                    
+                    <div id="monitored-projects-section">
+                        <h4>Monitored Projects</h4>
+                        <div id="monitored-projects-list"></div>
+                    </div>
+                    
+                    <div id="agents-section">
+                        <h4>Agents</h4>
+                        <div id="agents-list"></div>
+                    </div>
+                </div>
+                
+                <div id="system-stats">
+                    <h3>System Stats</h3>
+                    <div id="stats-content"></div>
+                </div>
+            </aside>
+        </main>
+        
+        <!-- Toast notification container -->
+        <div id="toast-container"></div>
+    </div>
+    
+    <script src="/static/app.js"></script>
+</body>
+</html>
